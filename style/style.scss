@@ -1,0 +1,42 @@
+// ---- COMPONENTS ----- //
+@use 'components/fonts.scss';
+@use "components/header";
+@use "components/home-one-page/home";
+@use "components/home-one-page/expertise-home";
+@use "components/home-one-page/presentation-part-two";
+@use "components/home-one-page/footer.scss";
+@use "components/contact.scss";
+@use "components/home-one-page/shooting-stars.scss";
+@use "components/stars.scss";
+@use "components/construct.scss";
+@use "components/software_factory.scss";
+@use "components/mobile.scss";
+@use "components/tablet.scss";
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    .text-pink {
+        color: #d53895;
+    }
+    .text-blue {
+        color: #00cacc;
+    }
+    .text-purple{
+        color:#890B9D;
+    }
+    .text-violet {
+        color: #ab86be;
+    }
+    .font-arial {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+   
+}
+
+main {
+    max-width: 2000px;
+}
+
+
+

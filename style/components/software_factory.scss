@@ -1,0 +1,149 @@
+.body-factory{
+  width: 100%;
+//   height: 100vh;
+//   height: 100dvh;
+  position: relative;
+ 
+  overflow-x: hidden;
+  background: linear-gradient(180deg,
+  #270436 0%,
+ 
+  rgb(115, 16, 122) 25%,
+  rgb(79, 6, 84) 45%,
+  #400e47 100%);
+}
+
+.font-title-factory{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 0.3rem;
+    font-size: 1.5rem;
+
+    
+}
+.bi-diamond-half{
+font-size:0.7rem;
+vertical-align: middle;
+}
+.gap-factory{
+    gap:8rem;
+}
+.conception-list p{
+    color:#d53895;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    margin:0;
+   
+}
+.conception-list img{
+    width:4.4rem;
+
+}
+.font-body-factory{
+    font-size:1rem;
+    line-height: 1.6rem;
+}
+.number-title{
+    font-size: 8rem;
+    color:#d53895;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 600;
+    padding:2rem;
+    color:#9F2EB9;
+}
+.factory-title{
+    color:#d53895;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 600;
+    font-size:3rem
+}
+.container-factory-deco{
+//position: relative;
+
+}
+//  .test3{border:1px solid red;}
+.factory-deco{
+    position: absolute;
+    z-index: -3;
+   // top: 200px;
+   //width:70rem
+   right:0;
+   width:70rem;
+ 
+}
+.factory-deco-two{
+    position: absolute;
+    z-index: -2;
+    left:60px;
+    top:820px;
+    width:50rem
+   // top: 200px;
+   //width:70rem
+ 
+}
+.margin-top{
+    margin-top:6rem;
+    margin-bottom:9rem;
+}
+footer{
+    background-color: white;
+    height: 100%;
+}
+.margin-fix-conception{
+    margin-top:5rem;
+}
+.transition-fix-border{
+    margin-top:-10px;
+}
+.test-text{
+   
+    text-align: justify;
+}
+.fix-margin-factory-title{
+    margin-left:10rem !important;
+    
+
+}
+
+//MOBILE
+
+@media only screen and (max-width: 600px) {
+  .mobile-factory{
+    width:100% !important;
+    margin:0 !important;
+  }
+  .font-title-factory{
+    text-align:center;
+  }
+  .font-body-factory{
+
+    margin:0 auto;
+ 
+    
+  }
+  .container-kick-off{
+display: block !important;
+  }
+  .mobile-body-factory{
+    display: block !important;
+    width:100% !important;
+  }
+  .mobile-factory-container{
+    display: block !important;
+  }
+  div>.factory-title{
+    text-align: center;
+  }
+  .number-title{
+    text-align:center;
+  }
+  .conception-list{
+    flex-direction: column !important;
+  }
+  p{
+    text-align: center;
+  }
+  .footer-style{
+    margin-top:5rem;
+  }
+}

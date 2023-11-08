@@ -1,0 +1,129 @@
+.container-pres{
+    width:50%;
+    margin:7rem; 
+    position: relative;
+    z-index:9999;
+    margin-top:15rem;
+}
+
+.gradient-border-two {
+  --borderWidth: 3px;
+  background: #1D1F20;
+  position: relative;
+  border-radius: var(--borderWidth);
+}
+.gradient-border-two:after {
+  content: '';
+  position: absolute;
+  top: calc(-1 * var(--borderWidth));
+  left: calc(-1 * var(--borderWidth));
+  height: calc(100% + var(--borderWidth) * 2);
+  width: calc(100% + var(--borderWidth) * 2);
+  background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+  border-radius: calc(2 * var(--borderWidth));
+  z-index: -1;
+  animation: animatedgradient 3s ease alternate infinite;
+  background-size: 300% 300%;
+}
+
+
+@keyframes animatedgradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.list-client{
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    background: #400E47 0%;
+  
+  padding: 3rem;
+    a {
+       
+        color: #d53895;
+        text-decoration: none;
+      }
+      
+      a {
+        background:
+          linear-gradient(
+            to right,
+            transparent,
+            transparent,
+          ),
+          linear-gradient(to right, #00CACC,#0089CC, #1F26BD),;
+        background-size: 100% 3px, 0 3px;
+        background-position: 100% 100%, 0 100%;
+        background-repeat: no-repeat;
+        transition: background-size 400ms;
+        line-height: 3rem;
+        padding-bottom: 1rem;
+        letter-spacing: 0.1rem;
+      }
+      
+      a:hover {
+        background-size: 0 3px, 100% 3px;
+        color: #00cacc;
+      }
+    }
+    
+
+    .list-techno{
+        list-style: none;
+        text-transform: uppercase;
+        font-weight: 600;
+        background: #530D5A;
+        padding: 3rem;
+        a {
+            color: #d53895;
+            text-decoration: none;
+          }  
+          a {
+            background:
+              linear-gradient(
+                to right,
+                transparent,
+                transparent,
+              ),
+              linear-gradient(to right, #00CACC,#0089CC, #1F26BD),;
+            background-size: 100% 3px, 0 3px;
+            background-position: 100% 100%, 0 100%;
+            background-repeat: no-repeat;
+            transition: background-size 400ms;
+            line-height: 3rem;
+            padding-bottom: 1rem;
+            letter-spacing: 0.1rem;
+          }
+          
+          a:hover {
+            background-size: 0 3px, 100% 3px;
+            color: #00cacc;
+          }
+        }
+
+.border-client{
+   background: linear-gradient(to right, #00CACC,#0089CC, #1F26BD);
+   padding: 2px;
+
+}
+
+.container-btn-pres{
+  border-radius:40px;
+  border:1px solid #00BFCC;
+  width:fit-content;
+    .btn-secondary{
+        background-color: transparent;
+        border:none;
+    }
+}
+
+
+
+

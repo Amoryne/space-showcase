@@ -1,0 +1,38 @@
+.bar-animation {
+    height: 3px;
+    background: linear-gradient(45deg, #D5336A, #D53B68, #D65363, #D7795B, #DAAE51);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+}
+
+.fix-size-expertise {
+    width: 25%;
+}
+
+.bar-anim:hover {
+    .bar-animation {
+        width: 90%;
+    }
+}
+
+.img-expertise {
+    width: 220px;
+    margin-top: 4rem;
+    transition: translate 420ms ease-in-out;
+    &:hover {
+        translate: 0px -40px;
+    }
+}
+
+.img-expertise:hover {
+    .bar-animation {
+        width: 100%;
+    }
+}
+
+.font-title-exp {
+    font-weight: 700;
+    font-size: larger;
+    font-family: 'Impact', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 0.3rem;
+}

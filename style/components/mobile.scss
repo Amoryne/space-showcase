@@ -1,0 +1,76 @@
+@media only screen and (max-width: 600px) {
+    .btn-home-mobile {
+        width: 100%;
+        justify-content: center !important;
+        
+    }
+
+    .container-pres {
+        width: 100%;
+        margin: 0rem;
+        position: relative;
+        z-index: 9999;
+        padding: 2.5rem;
+    }
+
+    .mobile-flex-btn-factory {
+        justify-content: center !important;
+    }
+
+    .expertise-title {
+        font-size: 2rem;
+    }
+
+    .container-pres-mobile {
+        margin-top: 8rem;
+    }
+
+    .mobile-exp {
+        display: flex;
+        flex-direction: column;
+        justify-content: between;
+        align-items: center;
+        margin: 1rem;
+    }
+
+    .mobile-exp-body {
+        width: 300px;
+    }
+
+    .font-title {
+        font-size: 2.3rem;
+        text-align: center !important;
+        margin-bottom: 2rem;
+        font-weight: 800;
+    }
+
+    .font-body {
+        text-align: center !important;
+        font-weight: 500;
+    }
+
+    .planet-bg {
+        width: 30rem;
+        top: -80px;
+    }
+
+    .front-bg-cloud {
+        bottom: -6rem;
+    }
+
+    .transition-bg-cloud {
+        bottom: -4rem;
+    }
+
+    .mobile-body-partone {
+        margin: 1rem !important;
+    }
+
+    .list-techno {
+        flex-direction: column;
+        gap: 3rem;
+        img {
+            width: 130px
+        }
+    }
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 446 373">
+  <defs>
+    <style>
+      .uuid-2d0481c4-b955-4e99-a86a-a722601769df {
+        fill: url(#uuid-08076c76-a10d-4c96-8760-bac7c2a04aa1);
+        mix-blend-mode: screen;
+      }
+
+      .uuid-2d0481c4-b955-4e99-a86a-a722601769df, .uuid-196fe4c2-f4b6-4dfb-8e2d-cc267b9e9086 {
+        stroke-width: 0px;
+      }
+
+      .uuid-3bc2bcd4-c72d-45fa-a505-25c8c01c0570 {
+        isolation: isolate;
+      }
+
+      .uuid-196fe4c2-f4b6-4dfb-8e2d-cc267b9e9086 {
+        fill: url(#uuid-fb0a5666-bd49-4cf3-a95e-ae01fcb0a797);
+      }
+    </style>
+    <linearGradient id="uuid-fb0a5666-bd49-4cf3-a95e-ae01fcb0a797" x1="3176.84315" y1="3150.9417" x2="3442.80424" y2="3150.9417" gradientTransform="translate(1293.07481 3946.45036) rotate(-138.38542) scale(.99997 .66292)" gradientUnits="userSpaceOnUse">
+      <stop offset=".00538" stop-color="#fea7af"/>
+      <stop offset=".99462" stop-color="#ea47ac" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="uuid-08076c76-a10d-4c96-8760-bac7c2a04aa1" x1="3180.26908" y1="3150.94382" x2="3343.25064" y2="3150.94382" xlink:href="#uuid-fb0a5666-bd49-4cf3-a95e-ae01fcb0a797"/>
+  </defs>
+  <g class="uuid-3bc2bcd4-c72d-45fa-a505-25c8c01c0570">
+    <g id="uuid-92ad94cc-e2a5-4576-a640-e7f812f39457" data-name="Layer 1">
+      <g>
+        <path class="uuid-196fe4c2-f4b6-4dfb-8e2d-cc267b9e9086" d="m114.90256,99.72504l189.70778,172.25573c1.05924.96193,1.40342,2.30183.77366,3.01115h0c-.62959.70822-1.9986.52565-3.0783-.41095L108.7216,106.6985c-2.96965-2.57547-3.98599-6.28681-2.25548-8.23525h0c1.72935-1.9464,5.52885-1.37825,8.43643,1.26178Z"/>
+        <path class="uuid-2d0481c4-b955-4e99-a86a-a722601769df" d="m186.06348,165.34829l116.2536,105.55891c.64885.58926.86003,1.41045.47403,1.8452h0c-.38574.43405-1.2247.32219-1.88612-.25148l-118.6291-102.87933c-1.81981-1.57804-2.44267-3.85212-1.38202-5.04644h0c1.05984-1.1926,3.38824-.84439,5.16961.77313Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

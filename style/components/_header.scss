@@ -1,0 +1,133 @@
+.btn-logo {
+  width: 300px;
+  height: fit-content;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  cursor:pointer;
+}
+
+#toggle {
+  display: none;
+}
+
+.hamburger {
+  position: absolute;
+  top: 5em;
+  right: 5%;
+  margin-left: -2em;
+  margin-top: -45px;
+  width: 1em;
+  height: 45px;
+  z-index: 99999999999999;
+}
+
+.hamburger div {
+  position: relative;
+  width: 3em;
+  height: 7px;
+  border-radius: 3px;
+  background-color: #00cacc;
+  margin-top: 8px;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav {
+  position: fixed;
+  width: 100%;
+
+  overflow-y: hidden;
+  background: linear-gradient(153deg,
+      #4e0977 0%,
+      rgb(92, 25, 96) 45%,
+      rgba(67, 15, 74, 1) 77%,
+      rgb(49, 8, 103) 100%);
+  opacity: 0.9;
+  top: -100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  transform: scale(0);
+  z-index: 999999999;
+}
+
+.nav-wrapper {
+  position: relative;
+ // overflow: hidden;
+ white-space: nowrap;
+}
+
+nav {
+  margin-left: 25%;
+}
+
+nav a {
+  font-family: 'Impact', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 2rem;
+  position: relative;
+  text-decoration: none;
+  color: #00cacc;
+  font-size: 2em;
+  display: inline-block;
+  margin-top: 1.25em;
+  transition: color 0.2s ease-in-out;
+  letter-spacing: 1px;
+}
+
+nav a:before {
+  content: '';
+  max-height: 100dvh;
+  max-height: 100vh;
+  overflow-y: hidden;
+  overflow: hidden;
+  height: 0;
+  position: absolute;
+  width: 0.25em;
+  background-color: white;
+  left: -0.9em;
+  transition: all 0.2s ease-in-out;
+}
+
+nav a:hover {
+  color: white;
+}
+
+nav a:hover:before {
+  height: 100%;
+}
+
+#toggle:checked+.hamburger .top-bun {
+  transform: rotate(-45deg);
+  margin-top: 25px;
+}
+
+#toggle:checked+.hamburger .bottom-bun {
+  opacity: 0;
+  transform: rotate(45deg);
+}
+
+#toggle:checked+.hamburger .meat {
+  transform: rotate(45deg);
+  margin-top: -7px;
+}
+
+#toggle:checked+.hamburger+.nav {
+  top: 0;
+  transform: scale(1);
+}
+
+@media only screen and (max-width: 600px) {
+  .hamburger {
+    right: 10%;
+  }
+
+  .hamburger div {
+    width: 2em;
+    height: 4px;
+  }
+
+  .btn-logo {
+    width: 200px;
+  }
+}

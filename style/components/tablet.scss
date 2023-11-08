@@ -1,0 +1,31 @@
+@media only screen and (min-width: 600px) and (max-width:1024px) {
+
+    .front-bg-cloud {
+        bottom: -2rem;
+    }
+
+    .transition-bg-cloud {
+        bottom: -3rem;
+    }
+
+    .container-pres {
+        width: 90%;
+        margin: 2rem;
+        margin-bottom: 3rem;
+    }
+
+    .fix-size-expertise {
+        width: 100% !important;
+        margin: 3rem;
+        font-size: 1.6rem;
+    }
+
+    .h-fix {
+        height: 2rem;
+    }
+    .planet-bg {
+        width: 40rem;
+        top: -210px;
+    }
+
+}

@@ -1,0 +1,119 @@
+.body-contact {
+    height: 100vh;
+    height: 100dvh;
+    max-height: 100vh;
+    max-height: 100dvh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background: linear-gradient(153deg,
+            #5a0e6c 0%,
+            rgb(114, 28, 118) 45%,
+            rgba(67, 15, 74, 1) 77%,
+            rgba(42, 3, 50, 1) 100%);
+}
+
+.form-label {
+    font-size: 1rem;
+    font-family: 'Impact', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #d53895;
+    letter-spacing: 0.1rem;
+}
+
+.label-contact {
+    color: #00cacc;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.120rem;
+    font-weight: 600;
+}
+
+p,a {
+    color: rgb(66, 66, 66);
+    letter-spacing: 0.1rem;
+    font-size: 0.8rem;
+    color: white
+}
+
+
+.text-info {
+    color: #00cacc !important;
+}
+
+.maps-position {
+    position: relative;
+    z-index: 99999999;
+}
+
+.test-contact {
+    background: linear-gradient(rgb(72, 5, 74), rgba(68, 10, 98, 0.463), transparent);
+    padding: 1rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.container-form {
+    width: 100%;
+    height: fit-content;
+}
+
+.img-contact-bg {
+    position: absolute;
+    z-index: -2;
+    bottom: 0;
+}
+
+.width-container {
+    width: 40%;
+}
+
+input,
+textarea {
+    background: none;
+    border: none;
+    outline: 1px solid #00cacc;
+    border-radius: 13px;
+    color: white;
+    &:focus {
+        outline: 2px solid #10dbdf;
+    }
+}
+
+input {
+    height: 2rem;
+    padding:0.6rem
+}
+textarea{
+    padding:0.6rem
+}
+.container-planet-img-contact {
+    position: absolute;
+    z-index: -1;
+    bottom: 0px;
+}
+
+.test-shooting-stars {
+    transform: scaleX(-1);
+}
+
+@media only screen and (max-width: 600px) {
+    .body-contact {
+        overflow-y: auto;
+    }
+
+    .container-contact-mobile {
+        justify-content: center !important;
+    }
+
+    .contact-mobile {
+        width: 100% !important;
+        margin: 0 auto !important;
+    }
+
+    .width-container {
+        width: 100%;
+        margin: 2rem;
+    }
+
+    .test-contact {
+        background: none;
+    }
+}
