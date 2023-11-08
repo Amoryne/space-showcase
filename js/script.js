@@ -58,7 +58,7 @@ if (window.innerWidth > 720 && window.innerWidth < 1024) {
 const btnBackHome = document.getElementById('btn-back-home')
 
 btnBackHome.addEventListener('click',()=>{
-window.location.href = '/';
+window.location.href = './';
 })
 
   
